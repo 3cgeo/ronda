@@ -11,4 +11,4 @@ O Projeto visa auxiliar nas rondas da organização.
 Desenvolvido pelo 3° Centro de Geoinformação - Olinda-PE
 
 - <b>2º Ten OTT</b> Lucas Rogério Ramos <b>Cardozo</b>
-- <b>3º Sgt TOPO</b><b>Osvaldo</b> Pinheiro Neto Bastos
+- <b>3º Sgt TOPO</b> <b>Osvaldo</b> Pinheiro Neto Bastos
