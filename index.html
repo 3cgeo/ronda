@@ -140,8 +140,17 @@
 					</div>
 				</div>
 				<br>
-				<button type="button" id="atualizar" class="btn btn-primary">Atualizar</button>
-				<button type="button" id="limpar" class="btn btn-danger">Limpar</button>
+				<div class="row">
+					<div class="col-md-4">
+						<button type="button" id="atualizar" class="btn btn-primary">Atualizar</button>
+					</div>
+					<div class="col-md-4">
+						<a href="#" data-toggle="modal" data-target="#myModal-imprimir" class="btn btn-lg btn-warning" >Imprimir</a>
+					</div>
+					<div class="col-md-4">
+						<button type="button" id="limpar" class="btn btn-danger">Limpar</button>
+					</div>
+				</div>
 			</form>
 		</div>
 	</div>
@@ -158,6 +167,26 @@
 	      </div>
 	      <div class="modal-body">
 		<p>Módulo em desenvolvimento.</p>
+	      </div>
+	      <div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar [X]</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+	<!-- Modal -->
+	<div id="myModal-imprimir" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		<h4 class="modal-title">Roteiro da ronda</h4>
+	      </div>
+	      <div class="modal-body">
+		<span id="roteiro"></span>
 	      </div>
 	      <div class="modal-footer">
 		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar [X]</button>
