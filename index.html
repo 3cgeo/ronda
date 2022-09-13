@@ -145,7 +145,7 @@
 						<button type="button" id="atualizar" class="btn btn-primary">Atualizar</button>
 					</div>
 					<div class="col-md-4">
-						<a href="#" data-toggle="modal" data-target="#myModal-imprimir" class="btn btn-lg btn-warning" >Imprimir</a>
+						<a href="#" id="imprimir" data-toggle="modal" data-target="#myModal-imprimir" class="btn btn-lg btn-warning" >Imprimir</a>
 					</div>
 					<div class="col-md-4">
 						<button type="button" id="limpar" class="btn btn-danger">Limpar</button>
@@ -229,6 +229,19 @@
 		$(document).on('click', '#limpar',function () {
 			localStorage.clear();
 			location.reload();
+		});
+		
+		$(document).on('click', '#imprimir',function () {
+			
+			var lista = "<ul>";
+			
+			for (var i = 0; i < localStorage.length; i++){
+				lista += "<li>"+localStorage.key(i)+" : "+localStorage.getItem(localStorage.key(i)+"</li>";
+			}
+			
+			lista +="</ul>";
+			
+			$('#roteiro').html(lista).show();
 		});
 	
 	});
