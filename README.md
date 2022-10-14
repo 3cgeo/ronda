@@ -6,6 +6,8 @@
 
 O Projeto visa auxiliar nas rondas da organização.
 
+Desenvolvido com PWA e Local Storange
+
 ## Autor
 
 Desenvolvido pelo 3° Centro de Geoinformação - Olinda-PE
