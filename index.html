@@ -1,238 +1,244 @@
-<!DOCTYPE html>
-<html lang="pt_br">
-  <head>
-   	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-   	<meta name="description" content="Ronda">
-	<meta name="author" content="Ten Cardozo">
-	<!-- Ícones -->
-	<link rel="shortcut icon" href="favicon.ico">
-	<title>Ronda</title> 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="container">
-	<br>
-	<div class="masthead">
-		<center>
-			<img style="width:80px;margin-top:-5px;" src="logo.png"/>
-			<h4><b>3º CENTRO DE GEOINFORMAÇÃO</b></h4>
-			<p>CENTRO DE GEOINFORMAÇÃO GENERAL DJALMA POLY COELHO</p>
-			<h1>Ronda</h1>
-		</center>
-	</div>
-	<br>
-	<div class="row txt-center">
-		<div class="col-md-offset-4 col-md-4 ">
-			<form id="form-ronda">
-				<div class="row">
-					<div class="col-md-4">
-						<label>RP:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="rp_time" id="rp_time" />
-						  <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="rp" id="rp" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>GAC:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="gac_time" id="gac_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="gac" id="gac" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>GAR:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="gar_time" id="gar_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="gar" id="gar" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>PS4:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="ps4_time" id="ps4_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="ps4" id="ps4" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>ALOJ:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="aloj_time" id="aloj_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="aloj" id="aloj" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>ARM:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="arm_time" id="arm_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="arm" id="arm" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>PS2:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="ps2_time" id="ps2_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="ps2" id="ps2" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<label>PL:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="pl_time" id="pl_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="pl" id="pl" />
-					</div>
-				</div>
-				<br>	
-				<div class="row">
-					<div class="col-md-4">
-						<label>PP:</label>
-					</div>
-					<div class="col-md-4">
-						<div class="input-group">
-						  <input class="form-control mudou" type="time" name="pp_time" id="pp_time" />
-						   <span class="glyphicon glyphicon-time"></span>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<input class="form-control mudou" type="tel" name="pp" id="pp" />
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<button type="button" id="atualizar" style="margin-top: 5px;" class="btn btn-block btn-primary">Atualizar</button>
-					</div>
-					
-					<div class="col-md-4">
-						<a href="#" id="imprimir" style="margin-top: 5px;" data-toggle="modal" data-target="#myModal-imprimir" class="btn btn-block btn-warning" >Imprimir</a>
-					</div>
-					
-					<div class="col-md-4">
-						<button type="button" id="limpar" style="margin-top: 5px;" class="btn btn-block btn-danger">Limpar</button>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-	    
-	<!-- Modal -->
-	<div id="myModal" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-
-	    <!-- Modal content-->
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Alerta!</h4>
-	      </div>
-	      <div class="modal-body">
-		<p>Módulo em desenvolvimento.</p>
-	      </div>
-	      <div class="modal-footer">
-		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar [X]</button>
-	      </div>
-	    </div>
-
-	  </div>
-	</div>
-	<!-- Modal -->
-	<div id="myModal-imprimir" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-
-	    <!-- Modal content-->
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Roteiro da ronda</h4>
-	      </div>
-	      <div class="modal-body">
-		<span id="roteiro"></span>
-	      </div>
-	      <div class="modal-footer">
-		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar [X]</button>
-	      </div>
-	    </div>
-
-	  </div>
-	</div>
-	  
-	<hr>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Aplicativo Ronda 3ºCGEO</title>
+		<meta name="description" content="App Ronda">
+		<meta name="author" content="Ten Cardozo">
+		<meta content='yes' name='apple-mobile-web-app-capable' />
+		<meta content='yes' name='mobile-web-app-capable' />
+		<meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+		<meta name="theme-color" content="black">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js?vs=02"></script>
 	
-    <!-- Site footer -->
-      <footer class="footer center">
-        <center><p>3° Centro de Geoinformação &copy; 2022.Todos os direitos reservados</p></center>
-      </footer>
-  </body>
-  <script> 
+		<!-- Ícones -->
+		<link rel="apple-touch-icon" href="assets/icon/android-chrome-192x192.png">
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+		<link rel="manifest" href="manifest.webmanifest">
+	</head>
+	<body>
+		<div class="container">
+			<br>
+			<div class="masthead">
+				<center>
+					<img style="width:80px;margin-top:-5px;" src="assets/img/logo.png"/>
+					<h4><b>3º CENTRO DE GEOINFORMAÇÃO</b></h4>
+					<p>CENTRO DE GEOINFORMAÇÃO GENERAL DJALMA POLY COELHO</p>
+					<h1>Ronda</h1>
+				</center>
+			</div>
+			<br>
+		<div class="row txt-center">
+			<div class="col-md-offset-4 col-md-4 ">
+				<form id="form-ronda">
+					<div class="row">
+						<div class="col-md-4">
+							<label>RP:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="rp_time" id="rp_time" />
+							  <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="rp" id="rp" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>GAC:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="gac_time" id="gac_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="gac" id="gac" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>GAR:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="gar_time" id="gar_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="gar" id="gar" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>PS4:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="ps4_time" id="ps4_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="ps4" id="ps4" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>ALOJ:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="aloj_time" id="aloj_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="aloj" id="aloj" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>ARM:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="arm_time" id="arm_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="arm" id="arm" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>PS2:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="ps2_time" id="ps2_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="ps2" id="ps2" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<label>PL:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="pl_time" id="pl_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="pl" id="pl" />
+						</div>
+					</div>
+					<br>	
+					<div class="row">
+						<div class="col-md-4">
+							<label>PP:</label>
+						</div>
+						<div class="col-md-4">
+							<div class="input-group">
+							  <input class="form-control mudou" type="time" name="pp_time" id="pp_time" />
+							   <span class="glyphicon glyphicon-time"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<input class="form-control mudou" type="tel" name="pp" id="pp" />
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<button type="button" id="atualizar" style="margin-top: 5px;" class="btn btn-block btn-primary">Atualizar</button>
+						</div>
+						
+						<div class="col-md-4">
+							<a href="#" id="imprimir" style="margin-top: 5px;" data-toggle="modal" data-target="#myModal-imprimir" class="btn btn-block btn-warning" >Imprimir</a>
+						</div>
+						
+						<div class="col-md-4">
+							<button type="button" id="limpar" style="margin-top: 5px;" class="btn btn-block btn-danger">Limpar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+			
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Alerta!</h4>
+			  </div>
+			  <div class="modal-body">
+			<p>Módulo em desenvolvimento.</p>
+			  </div>
+			  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Fechar [X]</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		<!-- Modal -->
+		<div id="myModal-imprimir" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Roteiro da ronda</h4>
+			  </div>
+			  <div class="modal-body">
+			<span id="roteiro"></span>
+			  </div>
+			  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Fechar [X]</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		<hr>
+		
+		<!-- Site footer -->
+		<footer class="footer center">
+			<center><p>3° Centro de Geoinformação &copy; 2022.Todos os direitos reservados</p></center>
+		</footer>
+	</body>
+	<script> 
   
 	/* Guarda as variáveis da ronda */
 	
@@ -248,6 +254,7 @@
 		
 		for (var i = 0; i < localStorage.length; i++){
 			$("#" + localStorage.key(i)).val(localStorage.getItem(localStorage.key(i)));
+			alert();
 		}
 		
 		$(document).on('click', '#atualizar',function () {
@@ -274,5 +281,21 @@
 		});
 	
 	});
-  </script>
-</html> 
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function (event) {
+			if ('serviceWorker' in navigator) {
+				console.log('has serviceworker');
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('serviceWorker.js')
+						.then((registration) => {
+							console.log('Service worker registered.', registration);
+						});
+				});
+			}
+			else {
+				console.log("Your browser not supports serviceWorkers");
+			}
+		});
+	</script>
+</html>

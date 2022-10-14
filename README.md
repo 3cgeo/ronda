@@ -1,6 +1,6 @@
 # Projeto Ronda
 
-<img src="/logo.png" alt="Projeto Ronda"/>
+<img src="assets/img/logo.png" alt="Projeto Ronda"/>
 
 ## Sobre
 
